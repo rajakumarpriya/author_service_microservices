@@ -1,13 +1,13 @@
-package com.dbook.book;
+package com.dbook.author;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookServiceApp {
+public class AuthorServiceApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookServiceApp.class, args);
+		SpringApplication.run(AuthorServiceApp.class, args);
 	}
 
 }
